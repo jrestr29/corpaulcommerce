@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <coordinadora_courrier>
+                <active>1</active>
+                <sallowspecific>0</sallowspecific>
+                <model>Ditosas\CoordinadoraCourrier\Model\Carrier\Ship</model>
+                <name>Coordinadora</name>
+                <price>6000</price>
+                <title>Coordinadora</title>
+                <type>I</type>
+                <specificerrmsg>Metodo de envío no disponible por el momento</specificerrmsg>
+            </coordinadora_courrier>
+        </carriers>
+    </default>
+</config>
