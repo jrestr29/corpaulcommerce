@@ -12,6 +12,7 @@ atlassian*
 /.gitattributes
 /app/config_sandbox
 /pub/*
+/vendor/*
 /app/etc/env.php
 /app/code/Magento/TestModule*
 /lib/internal/flex/uploader/.actionScriptProperties
