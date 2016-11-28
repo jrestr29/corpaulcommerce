@@ -123,5 +123,6 @@ return array (
     'Magento_WidgetSampleData' => 1,
     'Magento_Wishlist' => 1,
     'Magento_WishlistSampleData' => 1,
+    'MagicToolbox_MagicZoom' => 1,
   ),
 );
