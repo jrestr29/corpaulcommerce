@@ -114,11 +114,22 @@ body .page-wrapper header .wrapper .header ul li a {
 }
 body .page-wrapper header .content .block-search {
   float: left;
-  padding-left: 75px;
+  padding-left: 50px;
+}
+body .page-wrapper header .content .block-search form {
+  width: 350px !important;
+}
+body .page-wrapper header .content .block-search form input {
+  padding-left: 8%;
 }
 body .page-wrapper header .content .block-search form .actions button {
   background: none !important;
   border: none !important;
+  right: 0;
+  left: 18% !important;
+}
+body .page-wrapper div.nav-sections {
+  margin-bottom: 8px !important;
 }
 body .page-wrapper div.nav-sections .nav-sections-item-content {
   background: #fff;
@@ -155,4 +166,11 @@ body .page-wrapper div.breadcrumbs {
 }
 body .page-wrapper div.breadcrumbs ul li a {
   color: #666666 !important;
+}
+footer {
+  background: none !important;
+  border-top: 1px solid #CCC;
+}
+small.copyright {
+  display: none !important;
 }

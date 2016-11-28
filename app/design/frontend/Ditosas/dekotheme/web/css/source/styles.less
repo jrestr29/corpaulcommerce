@@ -163,13 +163,21 @@ body {
       .content {
         .block-search {
           float: left;
-          padding-left: 75px;
+          padding-left: 50px;
 
           form {
+            width: 350px !important;
+
+            input {
+              padding-left: 8%;
+            }
+
             .actions {
               button{
                 background: none !important;
                 border: none !important;
+                right: 0;
+                left:18% !important;
               }
             }
           }
@@ -179,6 +187,7 @@ body {
 
     div{
       &.nav-sections{
+        margin-bottom: 8px !important;
         .nav-sections-item-content{
           background: #fff;
           nav {
@@ -231,4 +240,16 @@ body {
   }
 
 
+}
+
+footer{
+  background: none !important;
+  border-top:1px solid #CCC;
+
+}
+
+small {
+  &.copyright{
+    display: none !important;
+  }
 }
