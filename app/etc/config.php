@@ -2,6 +2,7 @@
 return array (
   'modules' => 
   array (
+    'Ditosas_FedexCourrier' => 1,
     'Ditosas_CoordinadoraCourrier' => 1,
     'Magento_Store' => 1,
     'Magento_AdvancedPricingImportExport' => 1,
