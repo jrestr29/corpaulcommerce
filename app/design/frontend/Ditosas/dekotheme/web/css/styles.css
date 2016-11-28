@@ -154,6 +154,9 @@ body .page-wrapper header .content .block-search form .actions button {
   right: 0;
   left: 18% !important;
 }
+body .page-wrapper .navigation .active {
+  border-color: #f0f0f0 !important;
+}
 body .page-wrapper div.nav-sections {
   margin-bottom: 8px !important;
 }
