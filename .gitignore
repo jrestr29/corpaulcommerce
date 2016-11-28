@@ -1,3 +1,4 @@
+composer.phar
 /.buildpath
 /.cache
 /.metadata
@@ -10,7 +11,9 @@ atlassian*
 /.idea
 /.gitattributes
 /app/config_sandbox
-
+/pub/*
+/vendor/*
+/app/etc/env.php
 /app/code/Magento/TestModule*
 /lib/internal/flex/uploader/.actionScriptProperties
 /lib/internal/flex/uploader/.flexProperties
@@ -22,7 +25,7 @@ atlassian*
 /lib/internal/flex/varien/.settings
 /node_modules
 /.grunt
-
+/pub/*
 
 
 /var/*
