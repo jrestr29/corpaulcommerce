@@ -111,6 +111,10 @@ a.create {
   -moz-border-radius: 0 !important;
   border-radius: 0 !important;
 }
+h1,
+.title {
+  font-weight: bold;
+}
 body {
   font-family: 'Ubuntu';
   font-weight: normal;
