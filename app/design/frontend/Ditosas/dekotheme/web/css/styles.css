@@ -89,6 +89,10 @@
   font-weight: 500;
   font-style: normal;
 }
+button {
+  background-color: #E82200 !important;
+  border: 1px solid #E82200 !important;
+}
 body .page-wrapper header .wrapper {
   border-bottom: 1px solid #e8e8e8 !important;
   background-color: #EFEFEF !important;
@@ -108,6 +112,14 @@ body .page-wrapper header .wrapper .header ul li a {
   font-size: 10px !important;
   color: #333333 !important;
 }
+body .page-wrapper header .content .block-search {
+  float: left;
+  padding-left: 75px;
+}
+body .page-wrapper header .content .block-search form .actions button {
+  background: none !important;
+  border: none !important;
+}
 body .page-wrapper div.nav-sections .nav-sections-item-content {
   background: #fff;
 }
@@ -118,6 +130,11 @@ body .page-wrapper div.nav-sections .nav-sections-item-content nav {
 }
 body .page-wrapper div.nav-sections .nav-sections-item-content nav ul li {
   margin: 0!important;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+body .page-wrapper div.nav-sections .nav-sections-item-content nav ul li a {
+  color: #333333;
 }
 body .page-wrapper div.nav-sections .nav-sections-item-content nav ul li::before {
   content: "" !important;
@@ -138,8 +155,4 @@ body .page-wrapper div.breadcrumbs {
 }
 body .page-wrapper div.breadcrumbs ul li a {
   color: #666666 !important;
-}
-body button {
-  background-color: #E82200 !important;
-  border: 1px solid #E82200 !important;
 }
