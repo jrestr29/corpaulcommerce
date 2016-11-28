@@ -89,19 +89,31 @@
   font-weight: 500;
   font-style: normal;
 }
+#social-login-popup .social-login-title {
+  background-color: #666 !important;
+}
+.cart-summary {
+  background-color: #EFEFEF !important;
+}
 button {
-  background-color: #E82200 !important;
-  border: 1px solid #E82200 !important;
+  background-color: #bd4f5c !important;
+  border: 1px solid #bd4f5c !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  color: #ffffff !important;
+}
+a.create {
+  background-color: #bd4f5c !important;
+  border: 1px solid #bd4f5c !important;
   -webkit-border-radius: 0 !important;
   -moz-border-radius: 0 !important;
   border-radius: 0 !important;
 }
-a.create {
-  background-color: #E82200 !important;
-  border: 1px solid #E82200 !important;
-  -webkit-border-radius: 0 !important;
-  -moz-border-radius: 0 !important;
-  border-radius: 0 !important;
+body {
+  font-family: 'Ubuntu';
+  font-weight: normal;
 }
 body .page-wrapper header .wrapper {
   border-bottom: 1px solid #e8e8e8 !important;
@@ -148,6 +160,7 @@ body .page-wrapper div.nav-sections .nav-sections-item-content nav {
   background: #fff;
   text-align: center;
   text-transform: uppercase;
+  font-weight: bold !important;
 }
 body .page-wrapper div.nav-sections .nav-sections-item-content nav ul li {
   margin: 0!important;
