@@ -185,6 +185,17 @@ body .page-wrapper div.nav-sections .nav-sections-item-content nav ul li::before
   top: 16px !important;
   bottom: 12px !important;
 }
+body .page-wrapper div.nav-sections .nav-sections-item-content nav ul li ul {
+  font-size: 11px !important;
+}
+body .page-wrapper div.nav-sections .nav-sections-item-content nav ul li ul li {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+body .page-wrapper div.nav-sections .nav-sections-item-content nav ul li ul li a {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+}
 body .page-wrapper div.breadcrumbs {
   background: #ccc !important;
   padding-top: 10px !important;
