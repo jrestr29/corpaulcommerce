@@ -141,6 +141,22 @@ h2 {
 .details-qty label {
   padding-right: 20px !important;
 }
+#social-form-login .actions-toolbar .primary {
+  height: 30px !important;
+  background-color: #bd4f5c !important;
+  border: 1px solid #bd4f5c !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  color: #ffffff !important;
+  text-align: center;
+}
+#social-form-login .actions-toolbar .primary a {
+  padding-right: 0 !important;
+  padding-top: 3px !important;
+  padding-left: 13px !important;
+}
 body {
   font-family: 'Ubuntu';
   font-weight: normal;
