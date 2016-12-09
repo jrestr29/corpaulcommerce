@@ -139,7 +139,7 @@
 }
 
 button {
-  &.checkout, &.login, &.tocart {
+  &.checkout, &.login, &.tocart, &.subscribe {
     background-color: #bd4f5c !important;
     border: 1px solid #bd4f5c !important;
     -webkit-border-radius:0 !important;;
@@ -226,9 +226,14 @@ strong, h2 {
 body {
   font-family: 'Ubuntu';
   font-weight: normal;
+  background-color: #f4f4f4 !important;
+
 
   .page-wrapper{
     header{
+      background-color: #ffffff;
+
+
       .wrapper {
         border-bottom: 1px solid #e8e8e8 !important;
         background-color: #EFEFEF !important;
@@ -288,7 +293,12 @@ body {
 
     div{
       &.nav-sections{
-        margin-bottom: 8px !important;
+        margin-bottom: 0px !important;
+        z-index:999999 !important;
+        -webkit-box-shadow: 0px 7px 9px -9px rgba(126,128,126,0.59);
+        -moz-box-shadow: 0px 7px 9px -9px rgba(126,128,126,0.59);
+        box-shadow: 0px 7px 9px -9px rgba(126,128,126,0.59);
+
         .nav-sections-item-content{
           background: #fff;
           nav {
@@ -344,8 +354,10 @@ body {
         padding-top: 10px !important;
         padding-left: 10px !important;
         padding-bottom: 10px !important;
-        background-color: #f0f0f0 !important;
-        
+        background-color: #e3e3e3 !important;
+        margin-top: 12px;
+
+
         ul {
           li{
             a {
@@ -356,12 +368,18 @@ body {
       }
     }
   }
+}
 
+main {
+  background-color: #ffffff !important;
 
+  .page-title-wrapper{
+    margin-top: 15px;
+  }
 }
 
 footer{
-  background: none !important;
+  background-color: #f4f4f4 !important;
   border-top:1px solid #CCC;
 
 }
