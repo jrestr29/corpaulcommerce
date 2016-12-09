@@ -97,7 +97,8 @@
 }
 button.checkout,
 button.login,
-button.tocart {
+button.tocart,
+button.subscribe {
   background-color: #bd4f5c !important;
   border: 1px solid #bd4f5c !important;
   -webkit-border-radius: 0 !important;
@@ -160,6 +161,10 @@ h2 {
 body {
   font-family: 'Ubuntu';
   font-weight: normal;
+  background-color: #f4f4f4 !important;
+}
+body .page-wrapper header {
+  background-color: #ffffff;
 }
 body .page-wrapper header .wrapper {
   border-bottom: 1px solid #e8e8e8 !important;
@@ -200,7 +205,11 @@ body .page-wrapper .navigation .active a {
   border-color: #333333 !important;
 }
 body .page-wrapper div.nav-sections {
-  margin-bottom: 8px !important;
+  margin-bottom: 0px !important;
+  z-index: 999999 !important;
+  -webkit-box-shadow: 0px 7px 9px -9px rgba(126, 128, 126, 0.59);
+  -moz-box-shadow: 0px 7px 9px -9px rgba(126, 128, 126, 0.59);
+  box-shadow: 0px 7px 9px -9px rgba(126, 128, 126, 0.59);
 }
 body .page-wrapper div.nav-sections .nav-sections-item-content {
   background: #fff;
@@ -246,13 +255,20 @@ body .page-wrapper div.breadcrumbs {
   padding-top: 10px !important;
   padding-left: 10px !important;
   padding-bottom: 10px !important;
-  background-color: #f0f0f0 !important;
+  background-color: #e3e3e3 !important;
+  margin-top: 12px;
 }
 body .page-wrapper div.breadcrumbs ul li a {
   color: #666666 !important;
 }
+main {
+  background-color: #ffffff !important;
+}
+main .page-title-wrapper {
+  margin-top: 15px;
+}
 footer {
-  background: none !important;
+  background-color: #f4f4f4 !important;
   border-top: 1px solid #CCC;
 }
 small.copyright {
