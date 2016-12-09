@@ -129,7 +129,7 @@ Shipping,Envío,module,Magento_Backend
 "Account Information","Información de la Cuenta",module,Magento_Backend
 "User Name","Nombre de Usuario",module,Magento_Backend
 "First Name","Nombre",module,Magento_Backend
-"Last Name","Apellido",module,Magento_Backend
+"Last Name","Apellidos",module,Magento_Backend
 Email,Email,module,Magento_Backend
 "User Email","Email del Usuario",module,Magento_Backend
 "New Password","Nueva Contraseña",module,Magento_Backend
@@ -877,7 +877,7 @@ Websites,"Sitios Web",module,Magento_Catalog
 "Stock Alert Subscriptions","Suscripciones de Alertas de Existencias",module,Magento_Catalog
 "There are no customers for this alert.","No hay clientes para esta alerta.",module,Magento_Catalog
 "First Name","Nombre",module,Magento_Catalog
-"Last Name","Apellido",module,Magento_Catalog
+"Last Name","Apellidos",module,Magento_Catalog
 Email,Email,module,Magento_Catalog
 "Subscribe Date","Fecha de Suscripción",module,Magento_Catalog
 "Last Notified","Notificado por última vez",module,Magento_Catalog
@@ -3307,7 +3307,7 @@ No,No,module,Magento_Payment
 ID,ID,module,Magento_Paypal
 Email,Email,module,Magento_Paypal
 "First Name","Name",module,Magento_Paypal
-"Last Name","Apellido",module,Magento_Paypal
+"Last Name","Apellidos",module,Magento_Paypal
 "Reference ID","ID de Referencia",module,Magento_Paypal
 Status,Estado,module,Magento_Paypal
 Created,Creado,module,Magento_Paypal
@@ -3918,7 +3918,7 @@ Updated,Actualizado,module,Magento_Reports
 Customers,Clientes,module,Magento_Reports
 ID,ID,module,Magento_Reports
 "First Name","Nombre",module,Magento_Reports
-"Last Name","Apellido",module,Magento_Reports
+"Last Name","Apellidos",module,Magento_Reports
 "Items in Cart","Elementos en Carrito",module,Magento_Reports
 "Products in carts","Productos en carritos",module,Magento_Reports
 Carts,Carritos,module,Magento_Reports
@@ -4702,7 +4702,7 @@ Company,Compañía,module,Magento_Sales
 Country,País,module,Magento_Sales
 Email,Email,module,Magento_Sales
 "First Name","Nombre",module,Magento_Sales
-"Last Name","Apellido",module,Magento_Sales
+"Last Name","Apellidos",module,Magento_Sales
 State/Province,Estado/Provincia,module,Magento_Sales
 "Street Address","Número de Calle",module,Magento_Sales
 "Phone Number","Número Telefónico",module,Magento_Sales
@@ -5720,7 +5720,7 @@ Roles,Roles,module,Magento_User
 "User ID","ID del Usuario",module,Magento_User
 "User Name","Nombre de Usuario",module,Magento_User
 "First Name","Nombre",module,Magento_User
-"Last Name","Apellido",module,Magento_User
+"Last Name","Apellidos",module,Magento_User
 Email,Email,module,Magento_User
 Status,Estado,module,Magento_User
 Active,Activo,module,Magento_User
@@ -7373,7 +7373,7 @@ ZIP,CP,module,Magento_Customer
 "Billing Lastname","Apellido de Facturación",module,Magento_Customer
 "Account Lock","Bloqueo de Cuenta",module,Magento_Customer
 "First Name","Nombre",module,Magento_Customer
-"Last Name","Apellido",module,Magento_Customer
+"Last Name","Apellidos",module,Magento_Customer
 "Last Activity","Última Actividad",module,Magento_Customer
 Type,Tipo,module,Magento_Customer
 "Customer Information","Información de Cliente",module,Magento_Customer
