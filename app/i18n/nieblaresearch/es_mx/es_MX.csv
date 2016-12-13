@@ -4967,7 +4967,7 @@ Reports,Reportes,module,Magento_Search
 Delete,Borrar,module,Magento_Search
 "Are you sure you want to delete synonym group with id: %1?","¿Está seguro(a) de querer borrar el grupo de sinónimos con el ID: %1?",module,Magento_Search
 View/Edit,Ver/Editar,module,Magento_Search
-"Search entire store here...","Buscar en toda la tienda aquí...",module,Magento_Search
+"Search entire store here...","Buscar en toda la tienda...",module,Magento_Search
 "There are no search terms available.","No hay términos de búsqueda disponibles.",module,Magento_Search
 "Account Activity","Actividad de la Cuenta",module,Magento_Security
 "All other open sessions for this account were terminated.","Todas las otras sesiones de esta cuenta han sido terminadas.",module,Magento_Security
