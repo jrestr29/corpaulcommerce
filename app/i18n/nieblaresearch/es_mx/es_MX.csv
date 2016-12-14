@@ -1305,8 +1305,8 @@ Role,Rol,module,Magento_Catalog
 "Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","Compre %1 por %2 cada uno y <strong class=""benefit"">ahorre<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>",module,Magento_Catalog
 "Buy %1 for %2 each","Compre %1 por %2 cada uno",module,Magento_Catalog
 "Shop By","Compre Por",module,Magento_Catalog
-"Shopping Options","Opciones de Compra",module,Magento_Catalog
-"Compare Products","Compare Productos",module,Magento_Catalog
+"Shopping Options","Opciones de compra",module,Magento_Catalog
+"Compare Products","Compare productos",module,Magento_Catalog
 "Print This Page","Imprima Esta Página",module,Magento_Catalog
 "Remove Product","Remover Producto",module,Magento_Catalog
 "Add to Cart","Añadir al Carrito",module,Magento_Catalog
@@ -1321,7 +1321,7 @@ Prev,Anterior,module,Magento_Catalog
 Next,Siguiente,module,Magento_Catalog
 "We can't find products matching the selection.","No podemos encontrar productos que coincidan con la selección.",module,Magento_Catalog
 "Add to Compare","Añadir a Comparar",module,Magento_Catalog
-"Learn More","Entérese de Más",module,Magento_Catalog
+"Learn More","Entérese de más",module,Magento_Catalog
 "We found other products you might like!","¡Encontramos otros productos que pueden interesarle!",module,Magento_Catalog
 "More Choices:","Más Opciones:",module,Magento_Catalog
 "Check items to add to the cart or","Revise los elementos para añadir al carrito o",module,Magento_Catalog
@@ -1451,8 +1451,8 @@ Qty,Cantidad,module,Magento_Checkout
 Subtotal,Subtotal,module,Magento_Checkout
 "Continue Shopping","Continuar Comprando",module,Magento_Checkout
 "Clear Shopping Cart","Limpiar Carrito de Compras",module,Magento_Checkout
-"Update Shopping Cart","Actualizar Carrito de Compras",module,Magento_Checkout
-"Update Cart","Actualizar Carrito",module,Magento_Checkout
+"Update Shopping Cart","Actualizar carrito de compras",module,Magento_Checkout
+"Update Cart","Actualizar carrito",module,Magento_Checkout
 "See price before order confirmation.","Vea el precio antes de confirmar la orden.",module,Magento_Checkout
 "What's this?","¿Qué es esto?",module,Magento_Checkout
 "Edit item parameters","Editar parámetros del elemento",module,Magento_Checkout
@@ -1461,12 +1461,12 @@ Edit,Editar,module,Magento_Checkout
 "You have no items in your shopping cart.","No tiene elementos en su carrito de compras.",module,Magento_Checkout
 "Click <a href=""%1"">here</a> to continue shopping.","Haga <a href=""%1"">click aquí</a> para continuar comprando.",module,Magento_Checkout
 "Estimate Tax","Estimar Impuestos",module,Magento_Checkout
-"Estimate Shipping and Tax","Estimar Costo de Envío e Impuestos",module,Magento_Checkout
+"Estimate Shipping and Tax","Estimar costo de envío e impuestos",module,Magento_Checkout
 "Excl. Tax","Sin Impuestos",module,Magento_Checkout
 Loading...,Cargando...,module,Magento_Checkout
 "Order #","Órden #",module,Magento_Checkout
-"Proceed to Checkout","Proceder a Ordenar",module,Magento_Checkout
-"Product Name","Nombre de Producto",module,Magento_Checkout
+"Proceed to Checkout","Proceder a ordenar",module,Magento_Checkout
+"Product Name","Nombre de producto",module,Magento_Checkout
 "Incl. Tax","Con Impuestos",module,Magento_Checkout
 "Your order number is: %1.","El número de su orden es: %1.",module,Magento_Checkout
 "Your order # is: <span>%1</span>.","El # de su orden es: <span>%1</span>.",module,Magento_Checkout
@@ -2977,7 +2977,7 @@ Remove,Remover,module,Magento_LayeredNavigation
 "Remove This Item","Remover Este Elemento",module,Magento_LayeredNavigation
 "Shop By","Comprar Por",module,Magento_LayeredNavigation
 "Clear All","Borrar Todos",module,Magento_LayeredNavigation
-"Shopping Options","Opciones de Compra",module,Magento_LayeredNavigation
+"Shopping Options","Opciones de compra",module,Magento_LayeredNavigation
 Partners,Socios,module,Magento_Marketplace
 "Magento Marketplace","Magento Marketplace",module,Magento_Marketplace
 "Platinum Partners","Socios Platino",module,Magento_Marketplace
@@ -3993,7 +3993,7 @@ Error,Error,module,Magento_Reports
 "Add to Wish List","Añadir a la Lista de Deseos",module,Magento_Reports
 "Add to Compare","Añadir a Comparar",module,Magento_Reports
 "Recently Compared","Comparados Recientemente",module,Magento_Reports
-"Learn More","Entérese de Más",module,Magento_Reports
+"Learn More","Entérese de más",module,Magento_Reports
 "Save Review","Guardar Opinión",module,Magento_Review
 "New Review","Nueva Opinión",module,Magento_Review
 "Review Details","Detalles de la Opinión",module,Magento_Review
@@ -4751,7 +4751,7 @@ Notified,Notificado,module,Magento_Sales
 "Not Notified","Sin Notificar",module,Magento_Sales
 "No Payment Methods","No hay Métodos de pago",module,Magento_Sales
 "Order Comments","Comentarios de la Orden",module,Magento_Sales
-"Apply Coupon Code","Aplicar Código de Cupón",module,Magento_Sales
+"Apply Coupon Code","Aplicar código de cupón",module,Magento_Sales
 Apply,Apicar,module,Magento_Sales
 "Remove Coupon Code","Remover Código de Cupón",module,Magento_Sales
 Remove,Remover,module,Magento_Sales
@@ -6138,7 +6138,7 @@ Remove,Remover,theme,frontend/Magento/luma
 "Remove This Item","Remover Este Elemento",theme,frontend/Magento/luma
 "Shop By","Comprar Por",theme,frontend/Magento/luma
 "Clear All","Limpiar Todo",theme,frontend/Magento/luma
-"Shopping Options","Opciones de Compra",theme,frontend/Magento/luma
+"Shopping Options","Opciones de compra",theme,frontend/Magento/luma
 "Place Order","Colocar Orden",module,Magento_Authorizenet
 "Credit Card Information","Información de Tarjeta de Crédito",module,Magento_Braintree
 "What is this?","¿Qué es esto?",module,Magento_Braintree
@@ -6277,7 +6277,7 @@ Delete,Borrar,module,Magento_GiftMessage
 "Products price changed alert","Alertas de cambios de precio de Productos",module,Magento_ProductAlert
 "%name,","%name,",module,Magento_ProductAlert
 "Products back in stock alert","Alerta de productos de nuevo En Existencia",module,Magento_ProductAlert
-"Apply Discount Code","Aplicar Código de Descuento",module,Magento_SalesRule
+"Apply Discount Code","Aplicar código de descuento",module,Magento_SalesRule
 "Enter discount code","Ingresar código de descuento",module,Magento_SalesRule
 "Apply Discount","Aplicar Descuento",module,Magento_SalesRule
 "Cancel coupon","Cancelar cupón",module,Magento_SalesRule
@@ -8357,7 +8357,7 @@ Taxes,Impuestos,module,Magento_Tax
 "Apply Discount On Prices","Aplicar Descuento En Precios",module,Magento_Tax
 "Apply discount on price including tax is calculated based on store tax if ""Apply Tax after Discount"" is selected.","Aplicar descuento en precio incluyendo impuesto es calculado con base en el impuesto de tienda si ""Aplicar Impuesto Despues de Descuento"" está seleccionado.",module,Magento_Tax
 "Apply Tax On","Aplicar Impuesto En",module,Magento_Tax
-"Enable Cross Border Trade","Aplicar Comercio Entre Fronteras",module,Magento_Tax
+"Enable Cross Border Trade","Aplicar comercio entre fronteras",module,Magento_Tax
 "When catalog price includes tax, enable this setting to fix the price no matter what the customer's tax rate.","Cuando el precio de catálogo incluye impuesto, habilitar esta configuración para fijar el precio sin importar la tarifa de impuesto del cliente.",module,Magento_Tax
 "Default Tax Destination Calculation","Cálculo de Destino de Impuesto por Defecto",module,Magento_Tax
 "Default Country","País por Defecto",module,Magento_Tax
@@ -8379,8 +8379,8 @@ Rate,Tarifa,module,Magento_Tax
 "Subtotal Only","Sólamente Subtotal",module,Magento_Tax
 "(Excl. Tax)","(Excl. Impuesto)",module,Magento_Tax
 "(Incl. Tax)","(Incl. Impuesto)",module,Magento_Tax
-"Order Total Excl. Tax","Total de Orden Excl. Tax",module,Magento_Tax
-"Order Total Incl. Tax","Total de Orden Incl. Tax",module,Magento_Tax
+"Order Total Excl. Tax","Total de Orden Excl. Impuestos",module,Magento_Tax
+"Order Total Incl. Tax","Total de Orden Incl. Impuestos",module,Magento_Tax
 "Order Total","Total",module,Magento_Tax
 "Your credit card will be charged for","Se cargará a su tarjeta de crédito por",module,Magento_Tax
 Empty,Vacío,module,Magento_Theme
