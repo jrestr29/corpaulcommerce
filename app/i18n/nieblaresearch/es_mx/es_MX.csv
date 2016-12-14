@@ -5804,7 +5804,7 @@ username,"nombre de usuario",module,Magento_User
 "Your password has expired; please contact your administrator.","Su contraseña ha expirado; por favor contacte a su administrador.",module,Magento_User
 "Password Help","Ayuda de Contraseña",module,Magento_User
 "Enter your email address.  You will receive an email with a link to reset your password.","Ingrese su email.  Recibirá un email con un enlace para reiniciar su contraseña.",module,Magento_User
-"Email address","Email",module,Magento_User
+"Email address","Correo electrónico",module,Magento_User
 "Retrieve Password","Obtener Contraseña",module,Magento_User
 "Back to Sign in","Regresar a Ingresar",module,Magento_User
 "Forgot your password?","¿Olvidó su contraseña?",module,Magento_User
@@ -6158,7 +6158,7 @@ Total:,Total:,module,Magento_Checkout
 "Payment Method:","Método de Pago:",module,Magento_Checkout
 "Date & Time:","Fecha y Hora:",module,Magento_Checkout
 "Sign In","Ingresar",module,Magento_Checkout
-"Email Address","Email",module,Magento_Checkout
+"Email Address","Correo electrónico",module,Magento_Checkout
 Password,Contraseña,module,Magento_Checkout
 "Forgot Your Password?","¿Olvidó Su Contraseña?",module,Magento_Checkout
 "My billing and shipping address are the same","Mis direcciones de facturación y envío son la misma",module,Magento_Checkout
@@ -6244,7 +6244,7 @@ Password:,Contraseña:,module,Magento_Customer
 "Track order history","Rastrear su historial de órdenes",module,Magento_Customer
 "Check out faster","Ordenar más rápido",module,Magento_Customer
 "Checkout out using your account","Ordenar usando su cuenta",module,Magento_Customer
-"Email Address","Email",module,Magento_Customer
+"Email Address","Correo electrónico",module,Magento_Customer
 "Currency Update Warnings","Advertencias de Actualización de Monedas",module,Magento_Directory
 Footer,Pié,module,Magento_Email
 "Thank you, %store_name","Gracias, %store_name",module,Magento_Email
@@ -6628,7 +6628,7 @@ Password,Contraseña,module,MagePal_GmailSmtpApp
 "Set Return-Path","Fijar Dirección-Orígen (Return-Path)",module,MagePal_GmailSmtpApp
 "Return-Path Email","Email Dirección-Origen (Return-Path Email)",module,MagePal_GmailSmtpApp
 "Test Settings","Probar Configuraciones",module,MagePal_GmailSmtpApp
-"Email address","Email",module,MagePal_GmailSmtpApp
+"Email address","Correo electrónico",module,MagePal_GmailSmtpApp
 "Email address to send test to.","Email destino.",module,MagePal_GmailSmtpApp
 "From Email Address","Email Remitente",module,MagePal_GmailSmtpApp
 "Leave blank to use Username instead","Dejar en blanco para usar Usuario",module,MagePal_GmailSmtpApp
