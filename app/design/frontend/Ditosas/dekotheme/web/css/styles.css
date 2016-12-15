@@ -247,15 +247,19 @@ body .page-wrapper div.nav-sections .nav-sections-item-content nav ul li::before
   bottom: 12px !important;
 }
 body .page-wrapper div.nav-sections .nav-sections-item-content nav ul li ul {
-  font-size: 11px !important;
+  font-size: 12px !important;
+  top: 50px !important;
+  left: -55px !important;
+  border-top: none !important;
+  box-shadow: none;
 }
 body .page-wrapper div.nav-sections .nav-sections-item-content nav ul li ul li {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
 body .page-wrapper div.nav-sections .nav-sections-item-content nav ul li ul li a {
-  padding-top: 4px !important;
-  padding-bottom: 4px !important;
+  padding-top: 7px !important;
+  padding-bottom: 7px !important;
 }
 body .page-wrapper div.breadcrumbs {
   background: #ccc !important;
