@@ -248,9 +248,10 @@ body .page-wrapper div.nav-sections .nav-sections-item-content nav ul li::before
 }
 body .page-wrapper div.nav-sections .nav-sections-item-content nav ul li ul {
   font-size: 12px !important;
-  top: 46px !important;
+  top: 50px !important;
   left: -55px !important;
   border-top: none !important;
+  box-shadow: none;
 }
 body .page-wrapper div.nav-sections .nav-sections-item-content nav ul li ul li {
   padding-left: 0 !important;
