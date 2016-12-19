@@ -1381,7 +1381,7 @@ Manually,Manualmente,module,Magento_CheckoutAgreements
 "Invalid method: %1","Método no válido: %1",module,Magento_Checkout
 City,Ciudad,module,Magento_Checkout
 Country,País,module,Magento_Checkout
-State/Province,Estado/Provincia,module,Magento_Checkout
+State/Province,Departamento,module,Magento_Checkout
 "Zip/Postal Code","Código Postal",module,Magento_Checkout
 "My Cart (1 item)","Mi Carrito (1 elemento)",module,Magento_Checkout
 "My Cart (%1 items)","Mi Carrito (%1 elementos)",module,Magento_Checkout
@@ -2022,7 +2022,7 @@ Customers,Clientes,module,Magento_Customer
 "Please enter the phone number.","Por favor ingrese el número telefónico.",module,Magento_Customer
 "Please enter the zip/postal code.","Por favor ingrese el código postal.",module,Magento_Customer
 "Please enter the country.","Por favor ingrese el país.",module,Magento_Customer
-"Please enter the state/province.","Por favor ingrese el Estado/Provincia.",module,Magento_Customer
+"Please enter the state/province.","Por favor ingrese el departamento.",module,Magento_Customer
 """%1"" is a required value.","""%1"" es un valor obligatorio.",module,Magento_Customer
 Global,Global,module,Magento_Customer
 "Per Website","Por Sitio Web",module,Magento_Customer
@@ -2151,7 +2151,7 @@ Address,Dirección,module,Magento_Customer
 "Street Address %1","Dirección de Calle %1",module,Magento_Customer
 "VAT Number","RFC/Número VAT",module,Magento_Customer
 City,Ciudad,module,Magento_Customer
-State/Province,Estado/Provincia,module,Magento_Customer
+State/Province,Departamento,module,Magento_Customer
 "Please select a region, state or province.","Por favor seleccione una región, estado o provincia.",module,Magento_Customer
 "Zip/Postal Code","Código Postal",module,Magento_Customer
 Country,País,module,Magento_Customer
@@ -2253,7 +2253,7 @@ Documents,Documentos,module,Magento_Dhl
 "Unable to retrieve shipping label","No podemos recuperar la etiqueta de envío",module,Magento_Dhl
 "Non documents","No son documentos",module,Magento_Dhl
 None,Ninguno,module,Magento_Dhl
-State/Province,Estado/Provincia,module,Magento_Directory
+State/Province,Departamento,module,Magento_Directory
 "--Please Select--","--Por favor Seleccione--",module,Magento_Directory
 lbs,lbs,module,Magento_Directory
 kgs,kgs,module,Magento_Directory
@@ -3104,8 +3104,8 @@ Items,Elementos,module,Magento_Multishipping
 "Your order number is: ","Su número de orden es: ",module,Magento_Multishipping
 "Continue Shopping","Continuar Comprando",module,Magento_Multishipping
 "No New Relic Application ID configured, cannot continue with Cron Event reporting","No hay un ID de Aplicación New Relic configurada, no se puede continuar reportando con Evento Cron",module,Magento_NewRelicReporting
-"The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
-                        information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","La integración New Relic requiere el agente newrelic-php5, el cual no está instalado. Más 
+"The New Relic integration requires the newrelic-php5 agent, which is not installed. More
+                        information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","La integración New Relic requiere el agente newrelic-php5, el cual no está instalado. Más
                         información sobre la instalación del agente está disponible <a target=""_blank"" href=""%1"">aquí</a>.",module,Magento_NewRelicReporting
 "Delete Selected Problems","Borrar Problemas Seleccionados",module,Magento_Newsletter
 "Unsubscribe Selected","Desuscribir Seleccionados",module,Magento_Newsletter
@@ -4245,7 +4245,7 @@ Subtotal,Subtotal,module,Magento_SalesRule
 "Shipping Method","Método de Envío",module,Magento_SalesRule
 "Shipping Postcode","Código Postal de Envío",module,Magento_SalesRule
 "Shipping Region","Región de Envío",module,Magento_SalesRule
-"Shipping State/Province","Estado/Provincia de Envío",module,Magento_SalesRule
+"Shipping State/Province","Departamento de envío",module,Magento_SalesRule
 "Shipping Country","País de Envío",module,Magento_SalesRule
 "Product attribute combination","Combinación de atributo de producto",module,Magento_SalesRule
 "Products subselection","Subselección de productos",module,Magento_SalesRule
@@ -4593,7 +4593,7 @@ Guest,Invitado,module,Magento_Sales
 "Please enter the phone number.","Por favor ingrese el número telefónico.",module,Magento_Sales
 "Please enter the zip/postal code.","Por favor ingrese el código postal.",module,Magento_Sales
 "Please enter the country.","Por favor ingrese el país.",module,Magento_Sales
-"Please enter the state/province.","Por favor ingrese el estado/provincia.",module,Magento_Sales
+"Please enter the state/province.","Por favor ingrese el departamento.",module,Magento_Sales
 "Requested entity doesn't exist","La entidad no existe",module,Magento_Sales
 "Could not delete order address","No se puede borrar la dirección de la orden",module,Magento_Sales
 "Could not save order address","No se puede guardar la dirección de la orden",module,Magento_Sales
@@ -4703,7 +4703,7 @@ Country,País,module,Magento_Sales
 Email,Email,module,Magento_Sales
 "First Name","Nombre",module,Magento_Sales
 "Last Name","Apellidos",module,Magento_Sales
-State/Province,Estado/Provincia,module,Magento_Sales
+State/Province,Departamento,module,Magento_Sales
 "Street Address","Número de Calle",module,Magento_Sales
 "Phone Number","Número Telefónico",module,Magento_Sales
 "Zip/Postal Code","Código Postal",module,Magento_Sales
@@ -6197,9 +6197,9 @@ edit,editar,module,Magento_Checkout
 "Carrier Title","Título de Transportista",module,Magento_Checkout
 Next,Siguiente,module,Magento_Checkout
 "Sorry, no quotes are available for this order at this time","Lo sentimos, no hay cotizaciones disponibles para esta orden en este momento",module,Magento_Checkout
-"Order Summary","Resumen de la Orden",module,Magento_Checkout
-"Item in Cart","Elemento en Carrito",module,Magento_Checkout
-"Items in Cart","Elementos en Carrito",module,Magento_Checkout
+"Order Summary","Resumen de la orden",module,Magento_Checkout
+"Item in Cart","Elemento en carrito",module,Magento_Checkout
+"Items in Cart","Elementos en carrito",module,Magento_Checkout
 "View Details","Ver Detalles",module,Magento_Checkout
 "Contact Form","Forma de Contacto",module,Magento_Contact
 "Name: %name","Nombre: %name",module,Magento_Contact
@@ -6598,7 +6598,7 @@ Keyword,"Palabra clave",module,Magento_Ui
 "Please enter a valid date.","Por favor ingrese una fecha válida.",module,Magento_Ui
 "Please enter a valid URL Key (Ex: ""example-page"", ""example-page.html"" or ""anotherlevel/example-page"").","Por favor ingrese una llave URL válida (Ej: ""muestra-ejemplo"", ""muestra-ejemplo.html"" o ""otronivel/muestra-ejemplo"").",module,Magento_Ui
 "Please enter a valid zip code.","Por favor ingrese un código postal válido.",module,Magento_Ui
-"Please select State/Province.","Por favor seleccione Estado/Provincia.",module,Magento_Ui
+"Please select State/Province.","Por favor seleccione departamento.",module,Magento_Ui
 "Please enter a value less than or equal to {0}.","Por favor ingrese un valor menor o igual a {0}.",module,Magento_Ui
 "Please enter a value greater than or equal to {0}.","Por favor ingrese un valor mayor o igual a {0}.",module,Magento_Ui
 "Please enter issue number or start date for switch/solo card type.","Por favor ingres eun número de asunto o una fecha de inicio para el tipo de tarjeta switch/solo.",module,Magento_Ui
@@ -7900,7 +7900,7 @@ User,Usuario,module,Magento_Paypal
                                             <strong>De a sus ventas un impulso al anunciar financiamiento.</strong><br/>PayPal ayuda a convertir visitantes en compradores con financiamiento
                                             de Crédito PayPal. Sus clientes tienen más tiempo para pagar, mientras recibe pagos de inmediato – sin costo adicional para usted.
                                             Use los cintillos gratuitos de PayPal que le permiten anunciar el financiamiento de Crédito PayPal como opción de pagocuando sus clientes compren con PayPal.
-                                            El Programa de Anuncios de PayPal ha mostrado que genera compras adicionales además de incrementar el promedio de compras en un 15% 
+                                            El Programa de Anuncios de PayPal ha mostrado que genera compras adicionales además de incrementar el promedio de compras en un 15%
                                             o más. <a href=""https://financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Ver Detalles</a>.
                 ",module,Magento_Paypal
 "Basic Settings - PayPal Payments Advanced","Configuraciones Básicas - Pagos PayPal Avanzados",module,Magento_Paypal

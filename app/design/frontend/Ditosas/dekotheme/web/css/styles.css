@@ -98,7 +98,8 @@
 button.checkout,
 button.login,
 button.tocart,
-button.subscribe {
+button.subscribe,
+button.submit {
   background-color: #bd4f5c !important;
   border: 1px solid #bd4f5c !important;
   -webkit-border-radius: 0 !important;
@@ -273,7 +274,7 @@ body .page-wrapper div.breadcrumbs ul li a {
 }
 main {
   background-color: #ffffff !important;
-  margin-top: 120px;
+  margin-top: 190px;
   margin-bottom: 0;
 }
 main .page-title-wrapper {
@@ -293,5 +294,17 @@ small.copyright {
   position: relative !important;
   top: 16px !important;
   margin-top: 165px !important;
-  margin-bottom: -90px;
+  margin-bottom: -160px;
+}
+legend span {
+  font-weight: normal !important;
+}
+.opc-block-summary span {
+  font-weight: normal !important;
+}
+ul.opc-progress-bar li span {
+  font-weight: normal !important;
+}
+ol.opc li .step-title {
+  font-weight: normal !important;
 }
