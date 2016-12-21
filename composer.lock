@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e1af00f7fc2920b906374cf6eeadc212",
-    "content-hash": "8f6eeb0dbdd04975fea6555e76eb95de",
+    "hash": "e19dab692162857c772a1da9fc3785e4",
+    "content-hash": "190534d3c750a4ef092e4abe9ab3caf1",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -402,6 +402,162 @@
             "time": "2016-09-28 07:17:45"
         },
         {
+            "name": "ebizmarts/magento2-abandonedcart",
+            "version": "3.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ebizmarts/magento2-abandonedcart.git",
+                "reference": "b7b4d90db6f5e1e338f25dc6ad08d8cb61453c0f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ebizmarts/magento2-abandonedcart/zipball/b7b4d90db6f5e1e338f25dc6ad08d8cb61453c0f",
+                "reference": "b7b4d90db6f5e1e338f25dc6ad08d8cb61453c0f",
+                "shasum": ""
+            },
+            "require": {
+                "ebizmarts/magento2-mandrill": "3.0.*",
+                "mandrill/mandrill": "1.0.*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "psr-4": {
+                    "Ebizmarts\\AbandonedCart\\": ""
+                },
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ebizmarts Corp",
+                    "email": "info@ebizmarts.com",
+                    "homepage": "http://ebizmarts.com"
+                }
+            ],
+            "description": "Send abandoned cart emails",
+            "time": "2016-07-27 18:36:38"
+        },
+        {
+            "name": "ebizmarts/magento2-autoresponder",
+            "version": "3.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ebizmarts/magento2-autoresponder.git",
+                "reference": "3c8f93661975ea5ec12ee589b5f0e56a97e65225"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ebizmarts/magento2-autoresponder/zipball/3c8f93661975ea5ec12ee589b5f0e56a97e65225",
+                "reference": "3c8f93661975ea5ec12ee589b5f0e56a97e65225",
+                "shasum": ""
+            },
+            "require": {
+                "ebizmarts/magento2-mandrill": "3.0.*",
+                "mandrill/mandrill": "1.0.*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "psr-4": {
+                    "Ebizmarts\\AutoResponder\\": ""
+                },
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ebizmarts Corp",
+                    "email": "info@ebizmarts.com",
+                    "homepage": "http://ebizmarts.com"
+                }
+            ],
+            "description": "Send autoresponders emails",
+            "time": "2016-11-22 14:14:22"
+        },
+        {
+            "name": "ebizmarts/magento2-magemonkey",
+            "version": "3.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ebizmarts/magento2-magemonkey.git",
+                "reference": "7d0763dc9644ed9c0a9ffcc30aefad5853e89464"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ebizmarts/magento2-magemonkey/zipball/7d0763dc9644ed9c0a9ffcc30aefad5853e89464",
+                "reference": "7d0763dc9644ed9c0a9ffcc30aefad5853e89464",
+                "shasum": ""
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "psr-4": {
+                    "Ebizmarts\\MageMonkey\\": ""
+                },
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "Connect Mailchimp with Magento",
+            "time": "2016-09-16 14:03:24"
+        },
+        {
+            "name": "ebizmarts/magento2-mandrill",
+            "version": "3.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ebizmarts/magento2-mandrill.git",
+                "reference": "7566a6df716b85e621ec4dcfbb8dbc4985067cc5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ebizmarts/magento2-mandrill/zipball/7566a6df716b85e621ec4dcfbb8dbc4985067cc5",
+                "reference": "7566a6df716b85e621ec4dcfbb8dbc4985067cc5",
+                "shasum": ""
+            },
+            "require": {
+                "mandrill/mandrill": "1.0.*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "psr-4": {
+                    "Ebizmarts\\Mandrill\\": ""
+                },
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ebizmarts Corp",
+                    "email": "info@ebizmarts.com",
+                    "homepage": "http://ebizmarts.com"
+                }
+            ],
+            "description": "Connect Mandrill with Magento",
+            "time": "2016-12-06 17:51:05"
+        },
+        {
             "name": "justinrainbow/json-schema",
             "version": "1.6.1",
             "source": {
@@ -519,11 +675,6 @@
         {
             "name": "magento/composer",
             "version": "1.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magento/composer.git",
-                "reference": "b53f7c8a037860b467083e94de7c17cfd323e365"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/magento/composer/zipball/b53f7c8a037860b467083e94de7c17cfd323e365",
@@ -5923,6 +6074,49 @@
                 "framework"
             ],
             "time": "2015-10-29 14:34:55"
+        },
+        {
+            "name": "mandrill/mandrill",
+            "version": "1.0.55",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/mailchimp/mandrill-api-php.git",
+                "reference": "da3adc10042eafac2e53de141b358a52b8e53596"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/mailchimp/mandrill-api-php/get/da3adc10042eafac2e53de141b358a52b8e53596.zip",
+                "reference": "da3adc10042eafac2e53de141b358a52b8e53596",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mandrill": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Mandrill Devs",
+                    "email": "community@mandrill.com",
+                    "homepage": "http://mandrill.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "API client library for the Mandrill email as a service platform",
+            "homepage": "https://bitbucket.org/mailchimp/mandrill-api-php",
+            "keywords": [
+                "api",
+                "email"
+            ],
+            "time": "2015-09-22 13:58:03"
         },
         {
             "name": "monolog/monolog",
