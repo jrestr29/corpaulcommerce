@@ -209,15 +209,22 @@ body .page-wrapper header .content .block-search form .actions button {
 body .page-wrapper .navigation .active a {
   border-color: #333333 !important;
 }
-body .page-wrapper div.nav-sections {
-  margin-bottom: 0px !important;
-  z-index: 999999 !important;
-  -webkit-box-shadow: 0px 7px 9px -9px rgba(126, 128, 126, 0.59);
-  -moz-box-shadow: 0px 7px 9px -9px rgba(126, 128, 126, 0.59);
-  box-shadow: 0px 7px 9px -9px rgba(126, 128, 126, 0.59);
-  width: 100%;
-  position: fixed;
-  top: 115px;
+@media screen and (min-width: 750px) {
+  body .page-wrapper div.nav-sections {
+    margin-bottom: 0px !important;
+    z-index: 999999 !important;
+    -webkit-box-shadow: 0px 7px 9px -9px rgba(126, 128, 126, 0.59);
+    -moz-box-shadow: 0px 7px 9px -9px rgba(126, 128, 126, 0.59);
+    box-shadow: 0px 7px 9px -9px rgba(126, 128, 126, 0.59);
+    width: 100%;
+    position: fixed;
+    top: 115px;
+  }
+}
+@media screen and (max-width: 750px) {
+  body .page-wrapper div.nav-sections {
+    z-index: 99999999;
+  }
 }
 body .page-wrapper div.nav-sections .nav-sections-item-content {
   background: #fff;
@@ -228,14 +235,21 @@ body .page-wrapper div.nav-sections .nav-sections-item-content nav {
   text-transform: uppercase;
   font-weight: bold !important;
 }
-body .page-wrapper div.nav-sections .nav-sections-item-content nav ul li {
-  margin: 0!important;
-  padding-right: 5px;
-  padding-left: 5px;
+@media screen and (min-width: 750px) {
+  body .page-wrapper div.nav-sections .nav-sections-item-content nav ul li {
+    margin: 0!important;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
 }
 body .page-wrapper div.nav-sections .nav-sections-item-content nav ul li a {
   color: #333333;
   border-color: #333333 !important;
+}
+@media screen and (max-width: 750px) {
+  body .page-wrapper div.nav-sections .nav-sections-item-content nav ul li a {
+    padding-right: 15px !important;
+  }
 }
 body .page-wrapper div.nav-sections .nav-sections-item-content nav ul li::before {
   content: "" !important;
@@ -247,20 +261,22 @@ body .page-wrapper div.nav-sections .nav-sections-item-content nav ul li::before
   top: 16px !important;
   bottom: 12px !important;
 }
-body .page-wrapper div.nav-sections .nav-sections-item-content nav ul li ul {
-  font-size: 12px !important;
-  top: 50px !important;
-  left: -55px !important;
-  border-top: none !important;
-  box-shadow: none;
-}
-body .page-wrapper div.nav-sections .nav-sections-item-content nav ul li ul li {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-body .page-wrapper div.nav-sections .nav-sections-item-content nav ul li ul li a {
-  padding-top: 7px !important;
-  padding-bottom: 7px !important;
+@media screen and (min-width: 750px) {
+  body .page-wrapper div.nav-sections .nav-sections-item-content nav ul li ul {
+    font-size: 12px !important;
+    top: 50px !important;
+    left: -55px !important;
+    border-top: none !important;
+    box-shadow: none;
+  }
+  body .page-wrapper div.nav-sections .nav-sections-item-content nav ul li ul li {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  body .page-wrapper div.nav-sections .nav-sections-item-content nav ul li ul li a {
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+  }
 }
 body .page-wrapper div.breadcrumbs {
   background: #ccc !important;
@@ -326,4 +342,12 @@ ol.opc li .step-title {
 .minicart-items-wrapper .minicart-items .product .actions .primary a {
   background: none !important;
   border: none !important;
+}
+@media screen and (max-width: 750px) {
+  ul.links li:first-of-type {
+    text-align: center !important;
+  }
+  ul.links li:first-of-type a {
+    border-top: none !important;
+  }
 }
