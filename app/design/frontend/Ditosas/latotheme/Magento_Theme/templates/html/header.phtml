@@ -1,6 +1,10 @@
 <?php
 $welcomeMessage = $block->getWelcome();
 ?>
+<li class="contact-phone">
+    <img src='<?php echo $this->getViewFileUrl('images/phone_icon.svg'); ?>' alt="Telefono">
+    <span>8 800 505-04-83</span>
+</li>
 <?php switch ($block->getShowPart()):
     case 'welcome': ?>
         <li class="greet welcome" data-bind="scope: 'customer'">
@@ -9,7 +13,7 @@ $welcomeMessage = $block->getWelcome();
             </span>
             <!-- /ko -->
             <!-- ko ifnot: customer().fullname  -->
-            <a href="http://www.corpaul.com/" target="_blank"><span data-bind="html:'<?=$block->escapeHtml($welcomeMessage) ?>'">asdsad</span></a>
+            <a href="http://www.corpaul.com/" target="_blank"><span data-bind="html:'<?=$block->escapeHtml($welcomeMessage) ?>'">CORPAUL</span></a>
             <!-- /ko -->
         </li>
         <script type="text/x-magento-init">
