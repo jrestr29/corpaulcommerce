@@ -1319,7 +1319,7 @@ Compare","Comparar","module","Magento_Catalog
 ""Clear All""","Limpar Todos","module","Magento_Catalog
 Prev","Anterior","module","Magento_Catalog
 Next","Siguiente","module","Magento_Catalog
-""We can't find products matching the selection.""","No podemos encontrar productos que coincidan con la selección.","module","Magento_Catalog
+"We can't find products matching the selection.","No podemos encontrar productos que coincidan con la selección.","module","Magento_Catalog
 ""Add to Compare""","Añadir a Comparar","module","Magento_Catalog
 ""Learn More""","Entérese de más","module","Magento_Catalog
 ""We found other products you might like!""","¡Encontramos otros productos que pueden interesarle!","module","Magento_Catalog

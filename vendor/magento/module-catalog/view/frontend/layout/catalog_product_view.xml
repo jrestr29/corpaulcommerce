@@ -43,7 +43,7 @@
                             </arguments>
                         </block>
                     </container>
-                    <block class="Magento\Catalog\Block\Product\View" name="product.info.review" template="product/view/review.phtml" before="product.info.overview" />
+                    <block class="Magento\Catalog\Block\Product\View" name="product.info.review" template="product/view/review.phtml" after="product.info.main" />
                     <block class="Magento\Catalog\Pricing\Render" name="product.price.final" after="product.info.sku">
                         <arguments>
                             <argument name="price_render" xsi:type="string">product.price.render.default</argument>
