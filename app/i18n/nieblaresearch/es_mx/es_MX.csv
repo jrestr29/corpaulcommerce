@@ -1328,18 +1328,18 @@ Next","Siguiente","module","Magento_Catalog
 ""select all""","seleccionar todo","module","Magento_Catalog
 ""Items %1-%2 of %3""","Elementos %1-%2 de %3","module","Magento_Catalog
 ""%1 Item""","%1 Elemento","module","Magento_Catalog
-""%1 Items""","%1 Elementos","module","Magento_Catalog
+""%1 Items""","Resultados: %1 Productoss","module","Magento_Catalog
 Show","Mostrar","module","Magento_Catalog
 ""per page""","por página","module","Magento_Catalog
-""Sort By""","Ordenar Por","module","Magento_Catalog
-""Set Ascending Direction""","Fijar Órden Ascendente","module","Magento_Catalog
-""Set Descending Direction""","Fijar Órden Descendente","module","Magento_Catalog
+""Sort By""","Ordenar por","module","Magento_Catalog
+""Set Ascending Direction""","Fijar órden ascendente","module","Magento_Catalog
+""Set Descending Direction""","Fijar órden descendente","module","Magento_Catalog
 ""View as""","Ver como","module","Magento_Catalog
-""More Information""","Más Información","module","Magento_Catalog
+""More Information""","Más información","module","Magento_Catalog
 Loading...","Cargando...","module","Magento_Catalog
-""* Required Fields""","* Campos Obligatorios","module","Magento_Catalog
+""* Required Fields""","* Campos obligatorios","module","Magento_Catalog
 Availability","Disponibilidad","module","Magento_Catalog
-""Terms and Conditions""","Términos y Condiciones","module","Magento_CheckoutAgreements
+""Terms and Conditions""","Términos y condiciones","module","Magento_CheckoutAgreements
 ""Add New Condition""","Añadir Nueva Condición","module","Magento_CheckoutAgreements
 ""Save Condition""","Guardar Condición","module","Magento_CheckoutAgreements
 ""Delete Condition""","Borrar Condición","module","Magento_CheckoutAgreements
@@ -2810,7 +2810,7 @@ Configuration"
 "Remove This Item","Remover este elemento","module","Magento_LayeredNavigation"
 "Shop By","Comprar por","module","Magento_LayeredNavigation"
 "Clear All","Borrar todos","module","Magento_LayeredNavigation"
-"Shopping Options","Opciones de compra","module","Magento_LayeredNavigation"
+"Shopping Options","Filtros","module","Magento_LayeredNavigation"
 "Partners","Socios","module","Magento_Marketplace"
 "Magento Marketplace","Magento marketplace","module","Magento_Marketplace"
 "Platinum Partners","Socios platino","module","Magento_Marketplace"

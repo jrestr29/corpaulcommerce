@@ -10,9 +10,13 @@
 ?>
 
 <div data-block="minicart" class="minicart-wrapper">
-    <a class="action showcart" href="<?php /* @escapeNotVerified */ echo $block->getShoppingCartUrl(); ?>"
-       data-bind="scope: 'minicart_content'">
-        <span class="text"><?php /* @escapeNotVerified */ echo __('My Cart'); ?></span>
+    <div class="access">
+        <a class="action showcart" href="<?php /* @escapeNotVerified */ echo $block->getShoppingCartUrl(); ?>"
+           data-bind="scope: 'minicart_content'">
+        <span class="text"><?php /* @escapeNotVerified */ echo __('carrito'); ?></span>
+        </a>
+    </div>
+    <div class="counter">
         <span class="counter qty empty"
               data-bind="css: { empty: !!getCartParam('summary_count') == false }, blockLoader: isLoading">
             <span class="counter-number"><!-- ko text: getCartParam('summary_count') --><!-- /ko --></span>
@@ -20,10 +24,11 @@
             <!-- ko if: getCartParam('summary_count') -->
                 <!-- ko text: getCartParam('summary_count') --><!-- /ko -->
                 <!-- ko i18n: 'items' --><!-- /ko -->
-            <!-- /ko -->
+                <!-- /ko -->
             </span>
         </span>
-    </a>
+    </div>
+
     <?php if ($block->getIsNeedToDisplaySideBar()): ?>
         <div class="block block-minicart empty"
              data-role="dropdownDialog"
